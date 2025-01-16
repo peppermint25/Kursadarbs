@@ -1,0 +1,8 @@
+Flask
+Flask-PyMongo
+Flask-JWT-Extended
+Pillow
+bcrypt  # Add bcrypt
+python-dotenv  # Add python-dotenv
+flask-cors  # Add flask-cors
+flask_pymongo
