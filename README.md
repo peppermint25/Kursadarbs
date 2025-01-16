@@ -1,6 +1,8 @@
-# Instagram Clone
+# Image upload website
 
-This project is an Instagram clone built with Angular for the frontend and Flask for the backend. It includes features such as user registration, login, profile management, post creation, commenting, and following other users.
+This is a project for an image upload website. The backend is made with Python and Flask. This uses a MongoDB backend
+
+## You will need Docker to launch this project ##
 
 ## Features
 
@@ -34,37 +36,24 @@ This project is an Instagram clone built with Angular for the frontend and Flask
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/instagram-clone.git
-   cd instagram-clone/backend
+   git clone https://github.com/peppermint25/Kursadarbs.git
    ```
 
-2. Create a virtual environment and activate it:
+2. Then you will need to launch the Docker for the Flask backend and MongoDB to work
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Create a `.env` file in the `backend` directory and add the following environment variables:
-   ```env
-   MONGO_URI=mongodb://localhost:27017/yourdatabase
-   JWT_SECRET_KEY=your-secret-key
-   ```
-
-5. Run the backend server:
-   ```bash
-   flask run
+     docker-compose up --build
    ```
 
 ### Frontend Setup
 
-1. Navigate to the `frontend` directory:
+1. Navigate to the frontend or your choosing directory:
    ```bash
-   cd ../frontend
+   cd /GH-4o
+   cd /GH-Claude
+   cd /ChatGPT-Projects
+   cd /Claude-Projects-3.5
+   cd /Claude-Free
+   cd /GPT-4o
    ```
 
 2. Install the required packages:
