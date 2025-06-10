@@ -1,3 +1,5 @@
+# This was code for a project I did for the university comparing LLMs for coding
+
 # Image upload website
 
 This is a project for an image upload website. The backend is made with Python and Flask. This uses a MongoDB backend
